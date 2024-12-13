@@ -1,0 +1,101 @@
+* {
+    margin: 0px;;
+    padding:0;
+  
+  }
+  .main-container {
+    width:100%;
+    height:100%;
+    padding:48px 0px 48px 0px;
+  }
+  
+  header {
+    width:100vw;
+    gap:8px;
+    padding-top:24px;
+    padding:48px 0px 48px 0px;
+  }
+  
+  .navbar {
+    background-color:#440A8F0F;
+    width:80%;
+    padding:24px 32px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    border:1px;
+  }
+  .nav-list {  display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .nav-list li {
+    list-style: none;
+    gap:32px;
+    font-style:"Familjen Grotesk";
+    font-weight:400;
+    font-size: 17px;
+    line-height:24px;
+    color:#381664;
+  
+  }
+  .nav-list li a:hover {
+    color:white;
+    background-color:#8365aa;
+  
+  }
+  .logo {
+    font-family:"Syne", sans-serif;
+    font-weight: 800;
+    font-size:42px;
+    line-height: 42px;
+    color:#381664;
+    
+  }
+  
+  .home {
+    border-bottom: 1px;
+    padding:96px 0px;
+    gap:48px;
+    
+  }
+  .home h1 {
+    font-family: "Syne";
+    font-weight: 700;
+    font-size: 120px;
+    text-align: center;
+    color:#381664;
+  }
+  
+  .home img {
+    width:1344px;
+    height:672px;
+    border-radius: 22px;
+    border-top: 1px solid #440A8F
+  
+  }
+  
+  
+  .footer {
+    display: flex;
+    width:1344px;
+    height:48px;
+    justify-content: space-between;
+  }
+  
+  .top {
+    height: 48px;
+    width: 183px;
+    border-radius: 48px;
+    border: 1px;
+    padding:12px 24px;
+    border-top: 1px solid #440A8F
+  } 
+.project-cards {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+
+
+}
